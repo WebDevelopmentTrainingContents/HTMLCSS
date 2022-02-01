@@ -1,0 +1,15 @@
+#conteneur{
+    width: 960px; /* largeur */
+    background: #F4C400; /* fond */
+    margin: auto; /* marges */
+    padding:30px; /* espacement interne du conteneur */
+    height: 100vh;
+    }
+    .a, .b{
+    height: 150px; /* hauteur */
+    width: 200px; /* largeur */
+    border: 2px solid; /* bordure */
+    margin:0 10px; /* espacement horizontal entre les blocs */
+    display:inline-block; /* inline block rend le vertical align possible. 
+   
+    }
