@@ -1,0 +1,16 @@
+.maZoneA{
+    border: 10px solid red;
+    background: blue;
+     
+    /* MARGIN : marges extérieures */
+/*     margin: 100px 90px 80px 7px;  */
+margin-right : 20px;
+margin-left: 50px;
+  
+    }
+     
+    .maZoneB{
+    border: 1px solid;
+    background: red;
+    padding-left: 60px;
+    }
