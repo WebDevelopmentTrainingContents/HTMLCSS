@@ -1,0 +1,8 @@
+h1{
+    text-align: center; /* alignement */
+    font-size: 20px; /* taille du texte */
+    font-weight: bold; /* gras */
+    margin: 10px 9px 8px 7px; /* marges ext. */
+    padding: 20px; /* marges int. */
+    border:1px solid; /* bordure */
+    }

@@ -1,3 +1,7 @@
+body {
+    margin : 0px;
+}
+
 .maZoneA{
     border: 10px solid red;
     background: blue;
