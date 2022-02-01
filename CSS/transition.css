@@ -1,0 +1,13 @@
+div{ margin: 100px 0 0 0; } /* marges */
+div  img{
+height: 100px; /* hauteur */
+width: 100px; /* largeur */
+border: 5px solid #ccc; /* bordure */
+float: left; /* effet flotant (côte à côte) */
+margin: 15px; /* marges */
+transition: margin 0.5s; /* durée de transition lorsque l'on survole l'élément (hover) */
+}
+div img:hover {
+
+margin-top: 5px; /* on modifie la marge de 2px vers le haut (au lieu de 15px initial) lors du survol */
+}

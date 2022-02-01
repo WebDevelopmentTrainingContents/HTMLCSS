@@ -1,0 +1,12 @@
+div img {
+    margin: 20px; /* marges */
+    border: 5px solid #eee; /* bordure */
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4); /* ombre */
+    transition: 1s; /* transition all : sur toutes les propriétés */
+    max-width : 120px;
+    }
+    div img:hover {
+    transform: rotate(-7deg); /* rotation 7 degrés */
+    }
+    div img.rotation360:hover {
+    transform: rotate(-720deg); /* rotation 360 degrés */

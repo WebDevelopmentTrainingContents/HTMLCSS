@@ -1,0 +1,18 @@
+div {
+    height: 133px; /* hauteur */
+    width: 730px; /* largeur */
+    line-height: 0px; /* alignement dans la hauteur (du texte) */
+    color: transparent; /* couleur transparente */
+    font-size: 50px; /* taille du texte */
+    text-transform: uppercase; /* transformation du texte en majuscule */
+    transition: 0.5s; /* durée de transition */
+}
+div:hover {
+    line-height: 210px; /* alignement dans la hauteur (du texte) */
+    color: #575858;/* couleur */
+}
+div img{
+    float: left; /* effet flottant (côte à côte) */
+    margin: 0 15px; /* marges */
+    height: 300px;
+}
