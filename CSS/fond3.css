@@ -1,0 +1,13 @@
+.contenu{
+    background: #f6eadd; /* fond de couleur uni pour les anciens navigateurs */
+    background: linear-gradient( #f6eadd, #a07351); /* fond degradé pour les nouveaux navigateurs qui prenne en charge cette valeur linear-gradient */
+    width: 800px; /* largeur */
+    height: 20vh; /* hauteur */
+    margin: 0 auto; /* marges extérieures */
+    }
+    body {
+   /*      background: linear-gradient( #f6eadd, #1d957b); */ /* fond degradé pour les nouveaux navigateurs qui prenne en charge cette valeur linear-gradient */
+   background: linear-gradient( to left, red, blue);
+    }
+
+    

@@ -1,13 +1,16 @@
 body{
     background: #000000 url(../Assets/Images/sunset-gf10c7fedf_1920.jpg) no-repeat; /* image de fond */
     background-size: cover; /* couverture du fond */
+    height: 100vh;
     }
 .contenu{
     background-color: rgba(255, 255, 255, 0.3); /* atténuation, nous gardons 30% de la couleur blanche */
     width: 800px; /* largeur */
-    height: 500px; /* hauteur */
-    margin: 200px auto 0 auto; /* marges ext*/.
+ /* hauteur */
+   
+    margin: 100px auto ; /* marges ext*/
     padding: 10px; /* marges int. */
+    
     }
 .contenu  p{
     position : relative; /* positionnement */
