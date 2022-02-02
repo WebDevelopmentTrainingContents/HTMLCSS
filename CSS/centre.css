@@ -10,6 +10,6 @@
     width: 200px; /* largeur */
     border: 2px solid; /* bordure */
     margin:0 10px; /* espacement horizontal entre les blocs */
-    display:inline-block; /* inline block rend le vertical align possible. 
+    display:inline-block; /* inline block permet l'alignement horinzontal */ 
    
     }
