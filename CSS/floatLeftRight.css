@@ -1,17 +1,16 @@
-.d1{
-    float: left;
+.d{
     width: 170px;
     height: 170px;
     text-align: center;
     border: 1px solid #000000;
   }
-  .d2{
-    float: right;
-    width: 170px;
-    height: 170px;
-    text-align: center;
-    border: 1px solid #000000;
+  #d1 {
+      float: left;
   }
+  #d2 {
+      float: right;
+  }
+
   .clear{
     clear: both;
   }
