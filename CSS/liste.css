@@ -1,0 +1,9 @@
+ul.fruit{
+    list-style-type: none; /* none, circle, square, disc (par défaut) */
+    }
+    ul.fruit  li{
+    float: left;
+    margin: 15px;
+    /* background: url(img/fleche.gif) left center no-repeat; */
+    padding: 0 0 0 17px;
+    }

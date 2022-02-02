@@ -1,0 +1,17 @@
+a {
+    display: block;
+    margin-bottom: 2vh;
+}
+
+a img {
+    max-width: 10vh;
+}
+
+/* On change le curseur de cette façon :
+ */a:hover {
+    cursor:progress;
+}
+span {
+    color: red;
+    font-size: xx-large;
+}

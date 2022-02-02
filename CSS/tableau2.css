@@ -1,0 +1,15 @@
+table{
+    border: 1px solid;
+    }
+    td{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+    }
+    caption{
+    font-weight: bold;
+    }
+    .vide{ border: 0; width: 100px; }
+    .homme{ background: #62A9F0 ; }
+    .femme{ background: #E52867 ; }
