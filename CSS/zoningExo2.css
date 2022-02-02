@@ -1,0 +1,42 @@
+#conteneur {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 2px solid;
+}
+
+header {
+    background: #40A497;
+    height: 20%;
+}
+
+nav {
+    background: #9A40A4;
+    height: 10%;
+}
+
+section {
+    background: yellow;
+    height: 46%;
+    border: 2vh solid white;
+   
+}
+
+/* ToDo: Tenter de centrer la div qui se trouve dans section (sans Flexbox)
+ */
+/* section div {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+ 
+
+} */
+
+footer {
+    background: #40A497;
+    height: 20%;
+}
+
+.clear {
+    clear: both;
+}

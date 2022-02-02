@@ -11,17 +11,23 @@
     float: left;
 }
 
-.droite{
-    background: #55ffcc; width: 50%; height: 80%; float: left;
+.droite {
+    background: #55ffcc;
+    width: 50%;
+    height: 80%;
+    float: left;
 
 }
 
 .clear {
     clear: both;
-    }
-
-footer {
-    height: 20%;  background: #e5ff55;
 }
 
-p {margin: 0;}
+footer {
+    height: 20%;
+    background: #e5ff55;
+}
+
+p {
+    margin: 0;
+}
