@@ -1,0 +1,26 @@
+/* Tableau 1 :
+ */
+td, th{
+    text-align: center;
+    }
+    tr.changementCouleur:hover{
+    background: #f43c80;
+    }
+
+/*     tableau 2 :
+ */
+table{
+    
+        border-collapse: collapse; /* trait plat */
+        width: 700px; /* largeur */
+        height: 100px; /* hauteur */
+        margin: 10vh auto; /* marges */
+        }
+        th{
+        background: #f40c80; /* couleur de fond */
+        }
+        td, th{
+        padding: 7px; /* espacement intérieur */
+        border: 1px solid; /* bordure */
+        text-align: center; /* alignement du texte au centre */
+        }
