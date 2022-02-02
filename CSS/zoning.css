@@ -5,11 +5,20 @@
     background: #ff5555; width: 100%; height: 70px;
     }
     .gauche{
-    background: #5585ff; width: 30%; height: 530px; float: left;
+    background: #5585ff; width: 10%; height: 530px; float: left;
     }
     .milieu{
-    background: #55D87C; width: 70%; height: 530px; float: left;
+    background: #55D87C; width: 80%; height: 530px; float: left;
     }
-    .clear{
+    .droite {
+    background: #d6d855; width: 10%; height: 530px; float: left;
+    }
+    .clear {
     clear: both;
+    }
+
+    footer {
+        width: 100%;
+        background-color: blueviolet;
+        height: 15vh;
     }
