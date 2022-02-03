@@ -49,6 +49,13 @@ body {
     color: white;
 }
 
-#premierLien {
+
+#mainContainer {
+    margin: 30px auto;
+    width: 70%;
+    height:80vh;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
     
 }
