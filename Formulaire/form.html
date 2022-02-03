@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mon Menu</title>
+        <link rel="stylesheet" href="../CSS/form.css">
+    </head>
+    <body>
+<!--         Ne pas envoyer ces infos en get, c'est pour l'exemple !!!
+ -->        <form method="get" action="action.html" enctype="multipart/form-data">
+            <label for="pseudo">Pseudo *</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Veuillez renseigner pseudo" required><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="mail" >
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" >
+            <label for="prenom">Prenom</label>
+            <input type="text" name="prenom" id="prenom" >
+            <label for="password">Mot de Passe</label>
+            <input type="password" name="password" id="password" >
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple>
+            <label for="Pays">Pays</label>
+            <select id="Pays" name="pays" >
+                <optgroup label="Europe">
+                    <option>France</option>
+                    <option value="it" selected>Italie</option>
+                    <option value="es">Espagne</option>
+                </optgroup>
+            </select><br>
+            <label for="choix">Quel sont vos fruits préférés ?</label>
+            <p><input type="checkbox" name="choix" checked> Orange
+            <input type="checkbox" name="choix"> Fraise
+            <input type="checkbox" name="choix"> Poire</p>
+
+            <label for="civilite">Civilite</label>
+            <p><input type="radio" name="civilite" value="m" checked>Homme
+            <input type="radio" name="civilite" value="f">Femme</p>
+     
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france">
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br>
+            <label for="cp">Code Postale</label>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9"><br>
+<!--             Input de soumission
+ -->        <input type="submit" value="ok">
+        </form>
+    </body>
+</html>    
+
+
