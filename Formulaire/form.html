@@ -46,8 +46,28 @@
             </datalist><br>
             <label for="cp">Code Postale</label>
             <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9"><br>
+                  <label for="adresse">Adresse</label>
+            <textarea id="adresse" name="adresse" rows="5" cols="25"></textarea><br>
+            <label for="datedenaissance">Date de Naissance</label>
+            <input type="date" name="datedenaissance" id="datedenaissance"><br>
+             
+            <label for="jauge">Jauge</label>
+            <input type="range" min="25" max="50" value="26" id="jauge"><br>
+             
+            <label for="telephone">Telephone</label>
+            <input type="tel" maxlength="10" pattern="[0-9]{10}"><br>
+ 
+            <label for="recherche">recherche</label>
+            <input type="search" pattern="[0-9]{10}"><br>
+             
+            <label for="url">url</label>
+            <input type="url" pattern="[0-9]{10}"><br>
+             
+            <label for="couleur">Couleur</label>
+            <input type="color"><br>
 <!--             Input de soumission
  -->        <input type="submit" value="ok">
+            <input type="reset" value="effacer">
         </form>
     </body>
 </html>    

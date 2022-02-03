@@ -1,0 +1,22 @@
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+    background: url(videoBackground.jpg) no-repeat;
+    background-size: cover;
+    /* width: auto; height: auto; */
+    }
+    div{
+    font-family: arial;
+    background: rgba(255,255,255,0.3);
+    width: 500px;
+    min-height: 300px;
+    float: right;
+    margin: 150px 0 0 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+    }
