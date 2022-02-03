@@ -1,0 +1,16 @@
+.container {
+    background-color: cadetblue;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+
+}
+
+.child {
+    height: 30vh;
+    background-color: darkblue;
+    width: 25%;
+    margin: 20px;
+    color: white;
+    font-size: xx-large;
+}
