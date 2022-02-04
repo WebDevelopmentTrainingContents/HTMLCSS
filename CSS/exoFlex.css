@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .container {
@@ -14,18 +14,20 @@ body {
     width: 30%;
     color: white;
     font-size: xx-large;
-  margin:auto;
+ 
 }
 
 .child:last-child{
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-end;
+    align-self: center;
 }
 
 .child:first-child {
     width: 20%;
     text-align: center;
+    margin: auto;
 }
 
 .child a img {
@@ -42,25 +44,75 @@ body {
     
 }
 
+
+
 #containerMenu a {
     margin-right: 20px;
     margin:auto;
     text-decoration: none;
     color: white;
+    /* flex-grow: 1; */
 }
 
+#containerMenu a:nth-child(4){
+    color: red;
+/*     flex-grow: 3; */
+
+}
 
 #mainContainer {
     margin: 30px auto;
     width: 70%;
     height:80vh;
-    background-color: lightgray;
+    
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
     
 }
 
 .carteFilm {
-    width: ??;
-    background-color: lightpink;
+    width: 18%;
+    height: 38vh;
+    background-color: rgb(238, 238, 238);
+    margin: 5px;
+    
 }
+
+.carteFilm:nth-child(2n){
+    background-color: lightslategrey;
+}
+
+
+.divImage img {
+   width: 100%;
+}
+
+.divTitre p {
+   text-align: center;
+   margin-top: 8px;
+}
+
+@media all and (max-width: 480px) {
+
+    #containerMenu{
+        display: none;
+    }
+
+#mainContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+   justify-content:start;
+    width: 100%;
+}
+
+
+.carteFilm {
+    width: 80%;
+   height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+}
+
