@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: lightgray;
 }
 
 .containerRow {
@@ -45,3 +45,23 @@ background-color: rgb(233, 233, 233);
 
 
 
+/* etape 2 */
+
+.childNav img {
+    height: 70%;
+    margin: 8px auto
+  
+}
+
+.childNav h2 {
+    margin: 25% auto;
+}
+
+.childCategory {
+    text-align: center;
+}
+
+.childCategory img{
+    width: 70%;
+    margin: 25% auto
+}

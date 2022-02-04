@@ -35,3 +35,6 @@ table {
     font: inherit;
     vertical-align: baseline;
 }
+img {
+    display: block;
+}
