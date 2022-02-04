@@ -63,7 +63,7 @@ body {
 #mainContainer {
     margin: 30px auto;
     width: 70%;
-    height:80vh;
+   
     
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +79,7 @@ body {
     
 }
 
-.carteFilm:nth-child(2n){
+.carteFilm:nth-child(2n+1){
     background-color: lightslategrey;
 }
 
@@ -91,6 +91,36 @@ body {
 .divTitre p {
    text-align: center;
    margin-top: 8px;
+}
+
+@media all and (min-width:481px) and (max-width: 890px) {
+    #mainContainer {
+        flex-wrap: nowrap;
+        flex-direction: column;
+       justify-content:start;
+        width: 100%;
+    }
+
+    .container {
+        background-color: green;
+    }
+    .child {
+        color: black;
+    }
+    .carteFilm {
+        width: 80%;
+       height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    #containerMenu a {
+        color: black;
+        font-size: smaller;
+    }
+    #mainContainer {
+        background-color: black;
+    }
 }
 
 @media all and (max-width: 480px) {
